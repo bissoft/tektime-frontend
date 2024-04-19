@@ -1,0 +1,512 @@
+{
+  "header": {
+    "home": "TekTime",
+    "myEvents": "My moments",
+    "training": "Formation TekTime Se former sur l’outil",
+    "trainingWithId": "Formation TekTime Se former sur l’outil - {{id}}",
+    "newMeeting": "Add a new meeting",
+    "automatedReport": "Automated Report",
+    "myProfile": "My Profile",
+    "default": "TekTime",
+    "contract": "Subscriptions Management",
+    "enterprises": "Companies",
+    "teams": "Teams",
+    "user": "Users",
+    "meeting": "Meetings",
+    "drafts": "Drafts",
+    "guests": "Destinations",
+    "validateMeeting": "Create Event",
+    "duplicateContract": "Duplicate Contract",
+    "modifyContract": "Modify Contract",
+    "modifyEnterprise": "Modify Company",
+    "modifyParticipant": "Modify Participant",
+    "partcipantDetail": "Participant Detail",
+    "modifyTeam": "Modify Team",
+    "meetingDetail": "Meeting Details",
+    "contractDetails": "Contract Details",
+    "teamUsers": "Team / Users",
+    "modifyUser": "Modify User",
+    "preview": "Preview",
+    "modifyMeeting": "Modify Meeting",
+    "draftMeeting": "Draft Meeting",
+    "duplicateMeeting": "Duplicate Meeting",
+    "reporting": "Logbook",
+    "planDaction": "Strategy",
+    "logoutError": "Error logging out",
+    "logoutSuccess": "Logout successful",
+    "loginSuccess": "Login successful",
+    "loginError": "Error logging in",
+
+    "modification": "Modification",
+    "duplication": "Duplication"
+  },
+  "buttons": {
+    "cancel": "Cancel",
+    "cancel1": "Cancel",
+    "Delete": "Delete",
+    "Validatechanges": "Validate changes",
+    "Duplicate": "Duplicate",
+    "validate": "Validate",
+    "Next": "Next",
+    "Previous": "Previous",
+    "Copy Step": "Copy Step"
+  },
+  "sidebar": {
+    "subscriptions": "Subscriptions",
+    "enterprises": "Companies",
+    "teams": "Teams",
+    "meetings": "Moments",
+    "drafts": "Drafts",
+    "guests": "Destinations",
+    "logout": "Logout"
+  },
+  "contractTabs": {
+    "new": "New Subscription",
+    "active": "Current subscriptions",
+    "close": "Subscriptions closed"
+  },
+  "newContract": {
+    "name": "Name",
+    "startDate": "Start date",
+    "endDate": "End date",
+    "paymentFrequency": "Payment frequency",
+    "paymentMethod": {
+      "monthly": "Monthly (1 month)",
+      "3month": "Quarterly (3 months)",
+      "6month": "Semi-annual (6 months)",
+      "yearly": "Annual (1 year)"
+    },
+    "numberOfLicenses": "Number of licenses",
+    "price": "Price",
+    "currency": "Currency",
+    "create": "Create Subscription",
+    "cancel": "cancel",
+    "update": "Update subscription",
+    "copy": "Duplicate subscription",
+    "numberOfCompanies": "Number of companies",
+    "action": {
+      "update": "To modify",
+      "Duplicate": "Duplicate",
+      "close": "To enclose",
+      "delete": "Delete"
+    }
+  },
+  "enterpriseTabs": {
+    "new": "New company",
+    "active": "Active companies",
+    "close": "Archived companies"
+  },
+  "teamTabs": {
+    "new": "New team",
+    "active": "Active teams",
+    "close": "Archived teams"
+  },
+  "userTabs": {
+    "new": "New user",
+    "active": "Active users ",
+    "close": "Disabled users"
+  },
+  "Entreprise": {
+    "name": "Company name",
+    "subscription": "Subscription",
+    "Number of Licenses": "Number of Licenses",
+    "Activity area": "Activity area",
+    "Description": "Description",
+    "fname": "Name",
+    "Creator": "Creator",
+    "Number of renewals": "Number of renewals",
+    "Date of creation": "Date of creation",
+    "Start date": "Start date",
+    "End date": "Expiration date",
+    "modify": "To modify",
+    "close": "To enclose",
+    "reactive": "Reactive",
+    "Create a company": "Create a company",
+    "cancel": "Cancel",
+    "Update company": "Update company"
+  },
+  "Team": {
+    "name": "Team name",
+    "Creator": "Creator",
+    "Company": "Company",
+    "fname": "Name",
+    "Creation date": "Creation date",
+    "Closing Date": "Closing Date",
+    "Effective": "Effective",
+    "Create a Team": "Create a Team",
+    "cancel": "Cancel",
+    "Update Team": "Update Team",
+    "modify": "To modify",
+    "Deactivate": "Deactivate",
+    "reactive": "Reactive"
+  },
+  "meeting": {
+    "newMeetingTab": "Create a moment",
+    "activeMeetingsTab": "Current moments",
+    "completedMeetingsTab": "Completed moments",
+    "newMeeting": {
+      "validateEvent": "Validate Event",
+      "cancel": "Cancel",
+      "addGuest": "Add Guest",
+      "Guest": "Guests",
+      "Edit a step": "Edit a step",
+      "The stage starts at": "The stage starts at:",
+      "Estimated time of the stage": "Estimated time of the stage",
+      "Select Guests": "Select Guests",
+      "No Guest Available": "No Guest Available",
+      "participants": "Please complete all participant fields",
+
+      "labels": {
+        "typeOfChange": "Type of exchange",
+        "objective": "Objective",
+        "Destinations": "Destinations",
+        "exchangeType": "Exchange Type",
+        "chooseActivityType": "Choose the type of activity that will address your issue",
+        "title": "Title",
+        "priority": "Importance",
+        "context": "Context",
+        "date": "Date",
+        "Guests": "Guests",
+        "step": "Step",
+        "startTime": "Start Time",
+        "addGuest": "Add Guest",
+        "addStep": "Add Step",
+        "plannedTime": "Planned Time",
+        "realTimeDuration": "Real-time Duration",
+        "validate": "Validate",
+        "estimatedDuration": "Estimated Duration :",
+        "alarm": "Alarm",
+        "notetaking": "Note Taking"
+      },
+      "alarmText": {
+        "yes": "Bip alarm",
+        "no": "no alarm"
+      },
+      "repitition": {
+        "single": "Single",
+        "mulitple": "Mulitple"
+      },
+      "placeholders": {
+        "firstName": "First Name",
+        "lastName": "Last Name",
+        "post": "Post",
+        "objective": "Indicate in one sentence the result you want to have at the end of the point",
+        "destination": "Indicate in one sentence what situation you are targeting once the objectives are achieved",
+        "activityType": "Choose the type of activity that will address your problem",
+        "title": "Enter the meeting Objective",
+        "context": "Explain why the exchange needs to take place and what motivated its creation",
+        "date": "Select the date",
+        "startTime": "Enter the start time",
+        "guestName": "Enter guest name",
+        "stepTitle": "Enter step title",
+        "stepDuration": "Enter step duration"
+      },
+      "options": {
+        "activityTypes": {
+          "other": "Other",
+          "jobInterview": "Job Interview",
+          "oneOnOne": "One-on-One",
+          "training": "Training",
+          "informationSharing": "Information Sharing",
+          "businessPresentation": "Business Presentation",
+          "pitchPresentation": "Pitch Presentation",
+          "collaborativeMeeting": "Collaborative Meeting",
+          "problemResolution": "Problem Resolution",
+          "projectFollowup": "Project Follow-up",
+          "seminar": "Seminar",
+          "supportFollowup": "Support Follow-up",
+          "Pomodoro": "Pomodoro",
+          "individualInterview": "individual Interview",
+          "integration": "Integration",
+          "committee": "Comitee",
+          "conference": "Conference",
+          "Agile ritual": "Agile ritual"
+        },
+        "priorities": {
+          "priority": "Determine the importance of this moment",
+          "critical": "Obligatory",
+          "major": "Major",
+          "medium": "Medium",
+          "minor": "Minor"
+        },
+        "notetaking": {
+          "manual": "Manual",
+          "automatic": "Automatic"
+        }
+      }
+    },
+    "activeMeetings": {
+      "criticality": "Criticality",
+      "niche": "Slot",
+      "type": "Type",
+      "objective": "Objective",
+      "destinations": "Destinations",
+      "title": "Title",
+      "duration": "Duration",
+      "actions": "Actions",
+      "modify": "Modify",
+      "delete": "Delete",
+      "preview": "Preview",
+      "duplicate": "Duplicate"
+    },
+    "completedMeetings": {
+      "criticality": "Criticality",
+      "niche": "Niche",
+      "objective": "Objective",
+      "destinations": "Destinations",
+      "title": "Title",
+      "duration": "Duration",
+      "actions": "Actions",
+      "delete": "Delete",
+      "reviewInDetail": "Review in detail",
+      "duplicate": "Duplicate"
+    },
+    "chart": {
+      "buttons": {
+        "close": "Close",
+        "next": "Next",
+        "previous": "Previous",
+        "delete": "Delete",
+        "validate": "Validate",
+        "copy": "Copy"
+      },
+      "error": {
+        "unique": "The step name must be unique",
+        "failed": "Failed to copy step",
+        "delete": "Step is deleted",
+        "validEmail":"Please enter a valid email address for participants"
+      }
+    }
+  },
+
+  "dropdown": {
+    "To modify": "To modify",
+    "Duplicate": "Duplicate",
+    "Preview": "Preview",
+    "Delete": "Delete",
+    "Review the detail": "Review the detail"
+  },
+  "drafts": {
+    "criticality": "Criticality",
+    "niche": "Niche",
+    "objective": "Objective",
+    "title": "Title",
+    "duration": "Duration",
+    "actions": "Actions",
+    "modify": "Modify",
+    "delete": "Delete",
+    "preview": "Preview",
+    "duplicate": "Duplicate"
+  },
+  "guests": {
+    "newObj": "New Goals",
+    "achieved": "Achieved Goals",
+    "inprogress": "Goals In Progress",
+    "name": "Name",
+    "fname": "First name",
+    "profile": "Profile",
+    "post": "Post"
+  },
+  "actions": {
+    "order": "Order",
+    "title": "Moment",
+    "pname": "Participant Name",
+    "days": "Days",
+    "status": "Status",
+    "todo": "Todo",
+    "inprogress": "In progress",
+    "finished": "Finished"
+  },
+  "user": {
+    "name": "Last name",
+    "fname": "First name",
+    "company": "Company",
+    "team": "Team",
+    "job": "Job",
+    "Generate creation link": "Generate creation link",
+    "cancel": "Cancel",
+    "Profile": "Profile",
+    "Creation date": "Creation date",
+    "modify": "To modify",
+    "Deactivate": "Deactivate",
+    "reactive": "Reactive",
+    "Update user": "Update user",
+    "Deactivation date": "Deactivation date",
+    "account awaiting validation": "Account awaiting validation",
+    "validated account": "Validated account",
+    "closed": "Closed",
+    "updateUser": "Update user"
+  },
+  "profile": {
+    "name": "Last name",
+    "fname": "First name",
+    "company": "Company",
+    "team": "Team",
+    "job": "Job",
+    "nickname": "Nickname",
+    "link": "Link",
+    "password": "Password",
+    "cpassword": "Confrim Password",
+    "cancel": "Cancel",
+    "update": "Update Profile",
+    "post": "Post"
+  },
+  "presentation": {
+    "report": "Report generated by",
+    "statistics": "Meeting Statistics",
+    "start": "Start",
+    "end": "End",
+    "agenda": "Context",
+    "participants": "Participants",
+    "summary": "Summary of what was presented",
+    "notes": "Summary of note taking",
+    "decisions": "Decisions taken",
+    "planDActions": "Strategy",
+    "order": "Order",
+    "action": "Action",
+    "carrier": "Carrier",
+    "dueDate": "Due date",
+    "status": "Status",
+    "generateLink": "Generate link",
+    "register": "Save changes",
+    "todo": "Todo",
+    "inprogress": "In progress",
+    "finished": "Finished",
+    "cancel": "Cancel",
+    "fields": "Action name and Participant name are required"
+  },
+  "badge": {
+    "draft": "Draft",
+    "late": "Late",
+    "finished": "Finished",
+    "inprogress": "In progress",
+    "future": "Upcoming",
+    "cancel": "Cancel"
+  },
+  "messages": {
+    "stepNames": "Step names must be unique",
+    "stepTime": "Step title and time are required",
+    "dataFetchError": "Error fetching data from the server. Please! try again!",
+    "stepTimeZero": "Step time cannot be 0",
+    "draftSaved": "Meeting Saved in Draft",
+    "destination": "Destination field is required",
+    "ExchangeType": "Exchange Type field is required",
+    "Objective": "Objective field is required",
+    "Importance": "Importance field is required",
+    "Context": "Context field is required",
+    "Date": "Date field is required",
+    "Time": "Time field is required",
+    "field": "Please fill in the field",
+    "contract": {
+      "create": {
+        "success": "Contract created successfully",
+        "error": "Error creating contract",
+        "licenseFieldError": "In License Field, Number should not start from 0",
+        "allFieldsError": "Please fill all the required fields",
+        "nameFieldError": "Name field is required",
+        "startDateFieldError": "Start date field is required",
+        "endDateFieldError": "End date field is required",
+        "licenseFieldError2": "License field is required",
+        "priceFieldError": "Price field is required",
+        "currencyFieldError": "Currency field is required",
+        "paymentTypeError": "Payment type field is required"
+      },
+      "update": {
+        "success": "Contract updated successfully",
+        "error": "Error updating contract"
+      },
+      "delete": {
+        "success": "Contract deleted successfully",
+        "error": "Error deleting contract"
+      },
+      "close": {
+        "success": "Contract closed successfully",
+        "error": "Error closing contract"
+      },
+      "duplicate": {
+        "success": "Contract duplicated successfully",
+        "error": "Error duplicating contract"
+      }
+    },
+    "enterprise": {
+      "reactivate": {
+        "success": "Company reactivated successfully",
+        "error": "Error reactivating the company"
+      },
+      "archive": {
+        "success": "Company archived successfully",
+        "error": "Error archiving company"
+      },
+      "create": {
+        "success": "Company created successfully",
+        "error": "Error creating company",
+        "nameFieldError": "Name field is required",
+        "activityFieldError": "Please Select Activity Area. Activity Area Field is Required",
+        "subscriptionFieldError": "Please Select Subscription"
+      },
+      "update": {
+        "success": "Company updated successfully",
+        "error": "Error updating company"
+      },
+      "delete": {
+        "success": "Company deleted successfully",
+        "error": "Error deleting company"
+      },
+      "close": {
+        "success": "Company closed successfully",
+        "error": "Error closing company"
+      },
+      "duplicate": {
+        "success": "Company duplicated successfully",
+        "error": "Error duplicating company"
+      }
+    },
+
+    "team": {
+      "create": {
+        "required": "Please fill all the required fields. \n Team Name and Enterprise fields are required",
+        "success": "Team created successfully",
+        "error": "Error creating team. Please! try again!"
+      },
+      "update": {
+        "success": "Team updated successfully",
+        "error": "Error updating team. Please! try again!",
+        "close": "Error closing team. Please! try again!"
+      }
+    },
+    "user": {
+      "create": {
+        "success": "User created successfully",
+        "error": "Error creating user. Please! try again!",
+        "validationError": "Validation error. Please check all your inputs.",
+        "mailSent": "Mail sent successfully"
+      },
+      "profile": {
+        "success": "Profile updated successfully",
+        "error": "Error updating profile. Please! try again!",
+        "passwordError": "Password is invalid. Password must be 8 chars long and match the confirm password.",
+        "updateSuccess": "Profile updated successfully",
+        "validationError": "Validation error. Please check your inputs.",
+        "updateError": "An error occurred while updating the profile.",
+        "teamError": "Team is Required",
+        "nameError": "First name is Required",
+        "lastNameError": "Last name is Required",
+        "enterpriseError": "Enterprise is Required"
+      }
+    }
+  },
+  "errors": {
+    "contractClosed": "Contract Status of this Enterprise is closed. You can't perform this action",
+    "entClosed": "Enterprise Status of this team is closed. You can't perform this action",
+    "playMeeting": "Meeting can only be played 1 hour before the start time or after the start time"
+  },
+  "Take Notes": "Notes",
+  "Decisions": "Decisions",
+  "Next": "Suivant",
+  "Actiondays": "Action days",
+  "Day": "Day",
+  "Select Participant": "Select Participant",
+
+  "The email has already been taken.": "The email has already been taken.",
+  "The name field is required.": "The name field is required."
+}

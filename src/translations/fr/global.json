@@ -1,0 +1,521 @@
+{
+  "header": {
+    "home": "TekTime",
+    "myEvents": "Mes moments",
+    "training": "Formation TekTime Se former sur l’outil",
+    "trainingWithId": "Formation TekTime Se former sur l’outil - {{id}}",
+    "newMeeting": "Ajout d’une nouvelle momentss",
+    "automatedReport": "Compte-rendu automatisé",
+    "myProfile": "Mon profil",
+    "default": "TekTime",
+    "contract": "Gestion des abonnements",
+    "enterprises": "Entreprises",
+    "teams": "Équipes",
+    "user": "Utilisateurs",
+    "meeting": "Moments",
+    "drafts": "Brouillons",
+    "guests": "Destinations",
+    "validateMeeting": "Créer",
+    "duplicateContract": "Dupliquer le contrat",
+    "modifyContract": "Modifier le contrat",
+    "modifyEnterprise": "Modifier l'entreprise",
+    "modifyParticipant": "Modifier le participant",
+    "partcipantDetail": "Invités Detail",
+    "modifyTeam": "Modifier l'équipe",
+    "meetingDetail": "Détails de la moment",
+    "contractDetails": "Détails du contrat",
+    "teamUsers": "Équipe / Utilisateurs",
+    "modifyUser": "Modifier l'utilisateur",
+    "preview": "Aperçu",
+    "modifyMeeting": "Modifier la moment",
+    "draftMeeting": "Brouillon",
+    "duplicateMeeting": "Dupliquer la moment",
+    "reporting": "Journal de bord",
+    "planDaction": "Stratégie",
+    "logoutSuccess": "Déconnexion réussie",
+    "logoutError": "Erreur lors de la déconnexion",
+    "loginSuccess": "Connexion réussie",
+    "loginError": "Erreur lors de la connexion",
+
+    "modification": "Modification",
+    "duplication": "Dupliquer"
+  },
+  "buttons": {
+    "cancel": "Annuler",
+    "cancel1": "Fermer",
+    "Delete": "Supprimer",
+    "Validatechanges": "Valider les modifications",
+    "Duplicate": "Dupliquer",
+    "validate": "Valider",
+    "Next": "Suivant",
+    "Previous": "Précédent",
+    "Copy Step": "Copy Step"
+  },
+  "sidebar": {
+    "subscriptions": "Abonnements",
+    "enterprises": "Entreprises",
+    "teams": "Équipes",
+    "meetings": "Moments",
+    "drafts": "Brouillons",
+    "guests": "Destinations",
+    "logout": "Déconnexion"
+  },
+  "contractTabs": {
+    "new": "Nouvel Abonnement ",
+    "active": "Abonnements en cours",
+    "close": "Abonnements clôturés"
+  },
+  "newContract": {
+    "name": "Nom",
+    "startDate": "Début de date",
+    "endDate": "Fin de date",
+    "paymentFrequency": "Fréquence de paiement",
+    "paymentMethod": {
+      "monthly": "Mensuelle (1 mois)",
+      "3month": "Trimestrielle (3 mois)",
+      "6month": "Semestrielle  (6 mois)",
+      "yearly": "Annuelle (1 an)"
+    },
+    "numberOfLicenses": "Nomber de licences",
+    "price": "Prix",
+    "currency": "Devise",
+    "create": "Créer le Abonnement",
+    "cancel": "Annuler",
+    "update": "Mettre à jour le abonnement",
+    "copy": "Dupliquer abonnement",
+    "numberOfCompanies": "Nombre d'entreprises",
+    "action": {
+      "update": "Modifier",
+      "Duplicate": "Dupliquer",
+      "close": "Clôturer",
+      "delete": " Supprimer"
+    }
+  },
+  "enterpriseTabs": {
+    "new": "Nouvelle entreprise",
+    "active": "Entreprises actives",
+    "close": "Entreprises archivées"
+  },
+  "teamTabs": {
+    "new": "Ajouter une équipe",
+    "active": "Equipes actives",
+    "close": "Equipes archivées"
+  },
+  "userTabs": {
+    "new": "Nouvel utilisateur",
+    "active": "Utilisateurs actifs",
+    "close": "Utilisateurs désactivés"
+  },
+  "Entreprise": {
+    "name": "Nom Entreprise",
+    "subscription": "Abonnement",
+    "Number of Licenses": "Nombre de Licences",
+    "Activity area": "Secteur D’activite",
+    "Description": "Description",
+    "fname": "Nom",
+    "Creator": "Créateur",
+    "Number of renewals": "Nombre de renouvellement",
+    "Date of creation": "Date de la création",
+    "Start date": "Date de début",
+    "End date": "Date d'expiration",
+    "modify": "Modifier",
+    "close": "Clôturer",
+    "reactive": "Résactiver",
+    "Create a company": "Créer une entreprise",
+    "cancel": "Annuler",
+    "Update company": "Mettre à jour le Entreprises"
+  },
+  "Team": {
+    "name": "Nom D'equipe",
+    "Creator": "Créateur",
+    "Company": "Entreprise",
+    "fname": "Nom",
+    "Creation date": "Date de création",
+    "Closing Date": "Date de cloture",
+    "Effective": "Effectif",
+    "Create a Team": "Créer une equipe",
+    "cancel": "Annuler",
+    "Update Team": "Mettre à jour le equipe ",
+    "modify": "Modifier",
+    "Deactivate": "Désactiver",
+    "reactive": "Résactiver"
+  },
+  "meeting": {
+    "newMeetingTab": "Créer un moment",
+    "activeMeetingsTab": "Moments en cours",
+    "completedMeetingsTab": "Moments sauvegardés",
+    "newMeeting": {
+      "validateEvent": "Ajouter",
+      "cancel": "Annuler",
+      "addGuest": "Ajouter",
+      "Guest": "Invités",
+      "Edit a step": "Modifier une étape",
+      "The stage starts at": "L’étape démarre à :",
+      "Estimated time of the stage": "Temps prévu de l’étape",
+      "Select Guests": "Sélectionnez les invités",
+      "No Guest Available": "Aucun invité disponible",
+      "participants": "Veuillez remplir tous les champs des participants",
+      "labels": {
+        "typeOfChange": "Type d'échange",
+        "objective": "Objectif du moment",
+        "Destinations": "Destinations",
+        "exchangeType": "Type d'échange",
+        "chooseActivityType": "Choisissez le type d'activité qui répondra à votre problème",
+        "title": "Titre",
+        "priority": "Importance",
+        "context": "Contexte",
+        "date": "Date",
+        "Guests": "Invité",
+        "step": "étape",
+        "startTime": "Heure de début",
+        "addGuest": "Ajouter un invité",
+        "addStep": "Ajouter une étape",
+        "plannedTime": "Temps prévu",
+        "realTimeDuration": "Durée en temps réel",
+        "validate": "Valider",
+        "estimatedDuration": "Durée estimée à :",
+        "alarm": "Alarme",
+        "notetaking": "Prise de notes"
+      },
+      "alarmText": {
+        "yes": "Alarme bip",
+        "no": "Pas d'alarme"
+      },
+      "repitition": {
+        "single": "Célibataire",
+        "multiple": "plusieurs"
+      },
+      "placeholders": {
+        "firstName": "Prénom",
+        "lastName": "Nom",
+        "email": "Email",
+        "post": "Poste",
+        "objective": "Indiquez en une phrase le résultat que vous voulez avoir à la fin du point",
+        "destination": "Indiquez en une phrase quelle situation vous ciblez une fois les objectifs atteints",
+        "activityType": " Choisissez le type d'activité qui va répondre à votre problématique",
+        "title": "Saisissez le Objectif de la momentss",
+        "context": "Expliquez pourquoi l'échange doit avoir lieu et ce qui l'a motivé",
+        "date": "Sélectionnez la date",
+        "startTime": "Saisissez l'heure de début",
+        "guestName": "Saisissez le nom de l'invité",
+        "stepTitle": "Saisissez le titre de l'étape",
+        "stepDuration": "Saisissez la durée de l'étape"
+      },
+      "options": {
+        "activityTypes": {
+          "other": "Autre",
+          "jobInterview": "Embauche",
+          "oneOnOne": "Réunion commerciale",
+          "training": "Formation",
+          "informationSharing": "Partage d'informations",
+          "businessPresentation": "Atelier",
+          "pitchPresentation": "Présentation",
+          "collaborativeMeeting": "Réseautage",
+          "problemResolution": "Résolution de problème",
+          "projectFollowup": "Suivi de projet",
+          "seminar": "Séminaire",
+          "supportFollowup": "Suivi d’accompagnement",
+          "conference": "Conférence",
+          "integration": "Intégration",
+          "committee": "Comité",
+          "individualInterview": "Entretien individuel",
+          "Pomodoro": "Pomodoro",
+          "Agile ritual": "Rituel agile"
+        },
+        "priorities": {
+          "priority": "Déterminer l'importance de ce moment",
+          "critical": "Obligatoire",
+          "major": "Majeure",
+          "medium": "Moyenne",
+          "minor": "Mineure"
+        },
+        "notetaking": {
+          "manual": "Manuel",
+          "automatic": "Automatique"
+        }
+      }
+    },
+    "activeMeetings": {
+      "criticality": "Importance",
+      "niche": "Créneau",
+      "type": "Type",
+      "objective": "Objectif du moment",
+      "destinations": "Destinations",
+      "title": "Titre",
+      "duration": "Durée",
+      "actions": "Actions",
+      "modify": "Modifier",
+      "delete": "Supprimer",
+      "preview": "Aperçu",
+      "duplicate": "Dupliquer"
+    },
+    "completedMeetings": {
+      "criticality": "Critique",
+      "niche": "Créneau",
+      "objective": "Objectif",
+      "destinations": "Destinations",
+      "title": "Titre",
+      "duration": "Durée",
+      "actions": "Actions",
+      "delete": "Supprimer",
+      "reviewInDetail": "Examiner en détail",
+      "duplicate": "Dupliquer"
+    },
+    "chart": {
+      "buttons": {
+        "close": "Fermer",
+        "next": "Suivant",
+        "previous": "Précédent",
+        "delete": "Supprimer",
+        "validate": "Valider",
+        "copy": "Copier l’étape"
+      },
+      "error": {
+        "unique": "Le nom de l'étape doit être unique",
+        "failed": "Échec de la copie de l'étape",
+        "delete": "l'étape est supprimée",
+        "validEmail": "Veuillez saisir une adresse e-mail valide pour les participants"
+      }
+    }
+  },
+  "dropdown": {
+    "To modify": "Modifier",
+    "Duplicate": "Dupliquer",
+    "Preview": "Prévisualiser",
+    "Delete": "Supprimer",
+    "Review the detail": "Revoir le détail"
+  },
+  "drafts": {
+    "criticality": "Critique",
+    "niche": "Créneau",
+    "objective": "Objectif",
+    "title": "Titre",
+    "duration": "Durée",
+    "actions": "Actions",
+    "modify": "Modifier",
+    "delete": "Supprimer",
+    "preview": "Aperçu",
+    "duplicate": "Dupliquer"
+  },
+  "guests": {
+    "newObj": "Nouveau départ",
+    "achieved": "Arrivées",
+    "inprogress": "En cours",
+    "name": "Nom",
+    "fname": "Prénom",
+    "profile": "Profil",
+    "post": "Poste"
+  },
+  "actions": {
+    "order": "Order",
+    "title": "Moment",
+    "pname": "Nom du Participant",
+    "days": "Jours",
+    "status": "Statut",
+    "todo": "À faire",
+    "inprogress": "En cours",
+    "finished": "Terminé"
+  },
+  "user": {
+    "name": "Nom",
+    "fname": "Prenom",
+    "company": "Entreprise",
+    "team": "Equipe",
+    "job": "Poste",
+    "Generate creation link": "Generer lien de creation",
+    "cancel": "Annuler",
+    "Profile": "Profil",
+    "Creation date": "Date de création",
+    "modify": "Modifier",
+    "Deactivate": "Désactiver",
+    "reactive": "Résactiver",
+    "Update user": "Mettre à jour l'utilisateur",
+    "Deactivation date": "Date de désactivation",
+    "account awaiting validation": "Compte en attente de validation",
+    "validated account": "Compte validé",
+    "closed": "fermé",
+    "updateUser": " Mettre à jour l'utilisateur"
+  },
+  "profile": {
+    "name": "Nom",
+    "fname": "Prenom",
+    "company": "Entreprise",
+    "team": "Equipe",
+    "job": "Poste",
+    "nickname": "Pseudo",
+    "link": "Lien",
+    "password": "Mot de passe",
+    "cpassword": "Confirmez le mot de passe",
+    "cancel": "Annuler",
+    "update": "Mettre à jour le profil",
+    "post": "Poste"
+  },
+  "presentation": {
+    "report": "Compte-rendu généré par",
+    "statistics": "Statistiques",
+    "start": "Début",
+    "end": "Fin",
+    "agenda": "Contexte",
+    "participants": "Participants",
+    "summary": "Résumé de ce qui a été présenté",
+    "notes": "Résumé de la prise de notes",
+    "decisions": "Décisions prises",
+    "planDActions": "Stratégie",
+    "order": "Ordre",
+    "action": "Action",
+    "carrier": "Porteur",
+    "dueDate": "Jours",
+    "status": "Statut",
+    "generateLink": "Générer le lien",
+    "register": "Enregistrer les modifications",
+    "todo": "À faire",
+    "inprogress": "En cours",
+    "finished": "Terminé",
+    "cancel": "Annuler",
+    "fields": "Le nom de l’action et le nom du participant sont requis"
+  },
+  "badge": {
+    "draft": "Brouillon",
+    "late": "En retard",
+    "finished": "Terminé",
+    "inprogress": "En cours",
+    "future": "À venir",
+    "cancel": "Annulé"
+  },
+  "messages": {
+    "stepNames": "Les noms d'étape doivent être uniques",
+    "stepTime": "Le titre et l'heure de l'étape sont requis",
+    "dataFetchError": "Erreur lors de la récupération des données depuis le serveur. Veuillez réessayer !",
+    "emptyFields": "Veuillez remplir tous les champs obligatoires sauf les Invites",
+    "field": "Veuillez remplir le champ",
+    "stepTimeZero": "le temps de pas ne peut pas être nul",
+    "draftSaved": "Moment enregistré en brouillon",
+    "contract": {
+      "create": {
+        "success": "Contrat créé avec succès",
+        "error": "Erreur lors de la création du contrat",
+        "licenseFieldError": "Dans le champ de licence, le numéro ne doit pas commencer par 0",
+        "allFieldsError": "Veuillez remplir tous les champs requis",
+        "nameFieldError": "Le champ Nom est requis",
+        "startDateFieldError": "Le champ Date de début est requis",
+        "endDateFieldError": "Le champ Date de fin est requis",
+        "licenseFieldError2": "Le champ Licence est requis",
+        "priceFieldError": "Le champ Prix est requis",
+        "currencyFieldError": "Le champ Devise est requis",
+        "paymentTypeError": "Le champ Type de paiement est requis"
+      },
+      "update": {
+        "success": "Contrat mis à jour avec succès",
+        "error": "Erreur lors de la mise à jour du contrat"
+      },
+      "delete": {
+        "success": "Contrat supprimé avec succès",
+        "error": "Erreur lors de la suppression du contrat"
+      },
+      "close": {
+        "success": "Contrat fermé avec succès",
+        "error": "Erreur lors de la fermeture du contrat"
+      },
+      "duplicate": {
+        "success": "Contrat dupliqué avec succès",
+        "error": "Erreur lors de la duplication du contrat"
+      }
+    },
+    "enterprise": {
+      "reactivate": {
+        "success": "Entreprise réactivée avec succès",
+        "error": "Erreur lors de la réactivation de l'entreprise"
+      },
+      "archive": {
+        "success": "Entreprise archivée avec succès",
+        "error": "Erreur lors de l'archivage de l'entreprise"
+      },
+      "create": {
+        "nameFieldError": "Le champ Nom est requis",
+        "activityFieldError": "Le champ Secteur d'activité est requis",
+        "success": "Entreprise créée avec succès",
+        "error": "Erreur lors de la création de l'entreprise",
+        "subscriptionFieldError": "Le champ Abonnement est requis"
+      },
+      "update": {
+        "success": "Entreprise mise à jour avec succès",
+        "error": "Erreur lors de la mise à jour de l'entreprise"
+      },
+      "delete": {
+        "success": "Entreprise supprimée avec succès",
+        "error": "Erreur lors de la suppression de l'entreprise"
+      },
+      "close": {
+        "success": "Entreprise fermée avec succès",
+        "error": "Erreur lors de la fermeture de l'entreprise"
+      },
+      "duplicate": {
+        "success": "Entreprise dupliquée avec succès",
+        "error": "Erreur lors de la duplication de l'entreprise"
+      }
+    },
+    "team": {
+      "create": {
+        "required": "Veuillez remplir tous les champs requis. \n Le nom de l'équipe et les champs de l'entreprise sont requis",
+        "success": "Équipe créée avec succès",
+        "error": "Erreur lors de la création de l'équipe. Veuillez réessayer !"
+      },
+      "update": {
+        "success": "Équipe mise à jour avec succès",
+        "error": "Erreur lors de la mise à jour de l'équipe. Veuillez réessayer !",
+        "close": "Erreur lors de la fermeture de l'équipe. Veuillez réessayer !"
+      }
+    },
+    "user": {
+      "create": {
+        "success": "Utilisateur créé avec succès",
+        "error": "Erreur lors de la création de l'utilisateur. Veuillez réessayer !",
+        "mailSent": "Mail envoyé avec succès",
+        "validationError": "Erreur de validation. Veuillez vérifier vos saisies."
+      },
+      "profile": {
+        "success": "Profil mis à jour avec succès",
+        "error": "Erreur lors de la mise à jour du profil. Veuillez réessayer !",
+        "passwordError": "Le mot de passe est invalide. Le mot de passe doit faire 8 caractères de long et correspondre au mot de passe de confirmation.",
+        "updateSuccess": "Profil mis à jour avec succès",
+        "validationError": "Erreur de validation. Veuillez vérifier vos saisies.",
+        "updateError": "Une erreur s'est produite lors de la mise à jour du profil.",
+        "teamError": "L'équipe est requise",
+        "nameError": "Le prénom est requis",
+        "lastNameError": "Le nom de famille est obligatoire",
+        "enterpriseError": "L'entreprise est requise"
+      }
+    }
+  },
+  "errors": {
+    "contractClosed": "Le statut du contrat de cette entreprise est fermé. Vous ne pouvez pas effectuer cette action.",
+    "entClosed": "Le statut de l'entreprise de cette équipe est fermé. Vous ne pouvez pas effectuer cette action.",
+    "playMeeting": "La moment ne peut être démarré qu'une heure plus tôt ou une heure plus tard."
+  },
+
+  "Strategy": "Stratégie",
+  "Take Notes": "Notes",
+  "Decisions": "Décisions",
+  "Next": "Suivant",
+  "Actiondays": "Durée",
+  "Day": "jours",
+  "Select Participant": "Choisir",
+  "Previous": "Précédent",
+  "Close": "Clôturer",
+  "Abort Moment": "Annuler",
+  "Start At": "Démarrage à  ",
+  "Estimated End At": "Fin estimée à ",
+  "Remaining time of stage": "Temps restant de l'étape",
+
+  "The meeting started with": "Le rendez-vous a démarré avec",
+  "Minutes in Advance": "minutes en avance.",
+  "The email has already been taken.": "L'adresse e-mail est déjà utilisée.",
+  "The name field is required.": "Le champ du nom est obligatoire.",
+  "The last name field is required.": "Le champ du prénom est obligatoire.",
+  "The post field is required.": "Le champ du poste est obligatoire.",
+  "The email field is required.": "Le champ de l'email est obligatoire.",
+  "The role id field is required.": "Le champ de l'identifiant de rôle est obligatoire.",
+  "The team id field is required.": "Le champ de l'identifiant d'équipe est obligatoire.",
+  "The logo field must be a file of type: jpeg, png, jpg, gif, svg.": "Le champ du logo doit être un fichier de type: jpeg, png, jpg, gif, svg.",
+  "No Guests Available": "Aucun invité disponible"
+}
